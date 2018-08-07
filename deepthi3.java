@@ -12,6 +12,7 @@ class Ideone
 		// your code goes here
 		int i,n=10,max;
 		int a[]=new int[n];
+		Scanner Sc=new Scanner(System.in);
 		for(i=0;i<n;i++)
 		{
 			a[i]=Sc.nextInt();
