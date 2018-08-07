@@ -10,9 +10,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int i,n,max;
-		Scanner Sc=new Scanner(System.in);
-		n=Sc.nextInt();
+		int i,n=10,max;
 		int a[]=new int[n];
 		for(i=0;i<n;i++)
 		{
