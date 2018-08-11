@@ -15,11 +15,11 @@ class Ideone
 		num=Sc.nextInt();
 		if(num==1 || num==2|| num==3||num==4||num==5||num==6||num==7||num==8||num==9||num==10)
 		{
-			System.out.println("Yes");
+			System.out.println("yes");
 		}
 		else
 		{
-			System.out.println("No");
+			System.out.println("no");
 		}
 	}
 }
