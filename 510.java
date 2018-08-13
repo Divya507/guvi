@@ -10,11 +10,10 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		String str1,str2,str3;
+		String str1,str2;
 		Scanner Sc=new Scanner(System.in);
 		str1=Sc.nextLine();
 		str2=Sc.nextLine();
-		str3=str1+str2;
-		System.out.println(str3);
+		System.out.println(str1+""+str2);
 	}
 }
