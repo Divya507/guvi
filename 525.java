@@ -15,7 +15,7 @@ import java.io.*;
         int i = 0;
         String str;
         Scanner s=new Scanner(System.in);
-        str=s.next();
+        str=s.nextLine();
 
         if(str == null) {}
 
