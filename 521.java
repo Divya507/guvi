@@ -18,7 +18,7 @@ class Ideone
 		char[] ch=s.toCharArray();
 		for(i=0;i<k;i++)
 		{
-			System.out.println("\t"+ch[i]+"\t");
+			System.out.println(ch[i]);
 		}
 		
 	}
