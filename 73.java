@@ -16,7 +16,7 @@ class Ideone
 		n=sc.nextInt();
 		s=sc.nextInt();
 		e=sc.nextInt();
-		for(i=s;i<e;i++)
+		for(i=s+1;i<e;i++)
 		{
 			if(n==i)
 			{
