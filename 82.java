@@ -16,6 +16,6 @@ class Ideone
 		n=s.nextInt();
 		double r;
 		r=m*n;
-	System.out.println( ""+ String.format("%.8f", r));
+	System.out.println( ""+ String.format("%.5f", r));
 	}
 }
