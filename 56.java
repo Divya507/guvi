@@ -25,7 +25,7 @@ class Ideone
 				cou++;
 			}
 		}
-		if(count==0)
+		if(count==0 && cou==0)
 		{
 			System.out.println("No");
 		}
