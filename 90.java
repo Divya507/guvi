@@ -17,6 +17,7 @@ class Ideone
 		{
 			if(str.charAt(i) >='0' && str.charAt(i) <='9')
 			{
+			
 				System.out.println(str.charAt(i)+" \t");
 			}
 		}
