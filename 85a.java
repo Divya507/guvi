@@ -10,22 +10,26 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		String str;
+		String st;
 		int i;
 		Scanner s=new Scanner(System.in);
-		str=s.nextLine();
+		st=s.nextLine();
 		i=0;
-		while(i<str.length())
+		while(i<st.length())
 		{
-			System.out.println(str.charAt(i));
+			
+			System.out.println(st.charAt(i));
 			i=i+2;
+			
 		}
 		System.out.println("\t");
 		i=1;
-		while(i<str.length())
+		while(i<st.length())
 		{
-			System.out.println(str.charAt(i));
+			
+			System.out.println(st.charAt(i));
 			i=i+2;
+			
 		}
 	}
 }
