@@ -20,11 +20,11 @@ class Isogram
 		Set<String> myset=new HashSet<String>(Arrays.asList(ary));
 		if(s.length()==myset.size())
 		{
-			System.out.println("yes");
+			System.out.println("Yes");
 		}
 		else
 		{
-			System.out.println("no");
+			System.out.println("No");
 		}
 		}
 	
