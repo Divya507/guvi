@@ -16,7 +16,7 @@ import java.io.*;
       int num = sc.nextInt();
       
       //(2n)!/(n+1)!*n!
-      for(int i = 0; i<=num; i++) {
+      for(int i = 0; i<num; i++) {
          long Cn = (fact(2*i))/(fact(i+1)*fact(i));
          System.out.println(Cn+"\t");
       }
